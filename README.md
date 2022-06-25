@@ -1,16 +1,21 @@
-### Hi there 👋
 
-<!--
-**chasexd/chasexd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hello there 👋
 
-Here are some ideas to get you started:
+```python
+#!/usr/bin/python
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+class SoftwareEngineer:
+
+    def __init__(self):
+        self.name             = "Ashish Jayan"
+        self.role             = "Senior Software Engineer"
+        self.state_living_in  = "Florida"
+
+    def say_hi(self):
+        print("Thanks for dropping by.")
+
+
+me = SoftwareEngineer()
+me.say_hi()
+```
